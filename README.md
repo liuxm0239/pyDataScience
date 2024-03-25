@@ -1,66 +1,49 @@
-# README
+# Python for Data Analysis, 3rd Edition
 
-***
+Materials and IPython notebooks for "Python for Data Analysis, 3rd
+Edition" by Wes McKinney, published by O'Reilly Media. Book content
+including updates and errata fixes can be [found for free on my
+website][6].
 
-[《利用Python进行数据分析》中文第3版已出版](https://u.jd.com/W8xSkzl)，新版小鼹鼠亮相，对初学者更友好了。
+[Buy the book on Amazon][1]
 
-<br/>
+Follow Wes on Twitter: [![Twitter Follow](https://img.shields.io/twitter/follow/wesmckinn.svg?style=social&label=Follow)](https://twitter.com/wesmckinn)
 
-<div align=center>
-    <a href="https://u.jd.com/W8xSkzl">
-        <img src="https://p.ipic.vip/48zva4.png" width="500px">
-    </a>
-</div>
-<div align=center>
-    <a href="https://u.jd.com/W8xSkzl">购买链接</a>
-</div>
+# 2nd Edition Readers
 
-<br/>
+If you are reading the 2nd Edition (published in 2017), please find the
+reorganized book materials on the [`2nd-edition` branch][5].
 
-第三版多了**41**页内容，Pandas升级为1.4.0、Python升级为3.10。第三版最大的变化是**紧贴Pandas升级，主要是新增了方法和特性的内容**。另外，第三版有作者的[在线开源电子版](https://wesmckinney.com/book/)了，GitHub[地址](https://github.com/wesm/pydata-book)。
+# 1st Edition Readers
 
-第三版目录略有调整，不如第二版和第一版的变化大：
-- 第4章NumPy基础新增了生成伪随机数；
-- 第7章数据清洗新增了扩展数据类型和分类数据，实际是把第二版中第12章的内容放到新版第7章里了；
-- 第11章时间序列新增了分组时间重采样。
+If you are reading the 1st Edition (published in 2012), please find the
+reorganized book materials on the [`1st-edition` branch][2].
 
-曾经不止一次听别人抱怨，Pandas的知识点分散、零碎、不便于记忆。在细节上，作者这次在新版中摒弃了许多容易造成记忆混乱的用法。比如，用`axis = "columns"`替代`axis = 1`，简写方式破坏了代码的可读性，作者修改了许多类似的编程细节。新版对初学者更为友好了！
+## IPython Notebooks:
 
-***
+* [Chapter 2: Python Language Basics, IPython, and Jupyter Notebooks](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch02.ipynb)
+* [Chapter 3: Built-in Data Structures, Functions, and Files](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch03.ipynb)
+* [Chapter 4: NumPy Basics: Arrays and Vectorized Computation](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch04.ipynb)
+* [Chapter 5: Getting Started with pandas](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch05.ipynb)
+* [Chapter 6: Data Loading, Storage, and File Formats](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch06.ipynb)
+* [Chapter 7: Data Cleaning and Preparation](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch07.ipynb)
+* [Chapter 8: Data Wrangling: Join, Combine, and Reshape](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch08.ipynb)
+* [Chapter 9: Plotting and Visualization](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch09.ipynb)
+* [Chapter 10: Data Aggregation and Group Operations](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch10.ipynb)
+* [Chapter 11: Time Series](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch11.ipynb)
+* [Chapter 12: Introduction to Modeling Libraries in Python](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch12.ipynb)
+* [Chapter 13: Data Analysis Examples](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/ch13.ipynb)
+* [Appendix A: Advanced NumPy](http://nbviewer.ipython.org/github/pydata/pydata-book/blob/3rd-edition/appa.ipynb)
 
-<div align=center>
-    <img src="http://upload-images.jianshu.io/upload_images/7178691-0d965cf51eb5af9e.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240" width="500px">
-</div>
+## License
 
-<br/>
+### Code
 
-在简书上阅读： [https://www.jianshu.com/p/04d180d90a3f](https://www.jianshu.com/p/04d180d90a3f)
+The code in this repository, including all code samples in the notebooks listed
+above, is released under the [MIT license](LICENSE-CODE). Read more at the
+[Open Source Initiative](https://opensource.org/licenses/MIT).
 
-下载本书：[http://www.jianshu.com/p/fad9e41c1a42](http://www.jianshu.com/p/fad9e41c1a42) （更新为GitHub链接）
-
-下载本书代码（本书GitHub地址）：[https://github.com/wesm/pydata-book](https://github.com/wesm/pydata-book) （建议把代码下载下来之后，安装好Anaconda 3.6，在目录文件夹中用Jupyter notebook打开）
-
-本书是2017年10月20号正式出版的，和第1版的不同之处有：
-
-* 包括Python教程内的所有代码升级为Python 3.6（第1版使用的是Python 2.7）
-* 更新了Anaconda和其它包的Python安装方法
-* 更新了Pandas为2017最新版
-* 新增了一章，关于更高级的Pandas工具，外加一些tips
-* 简要介绍了使用StatsModels和scikit-learn
-
-对有些内容进行了重新排版。（译者注1：最大的改变是把第1版附录中的Python教程，单列成了现在的第2章和第3章，并且进行了扩充。可以说，本书第2版对新手更为友好了！）
-
-（译者注2：毫无疑问，本书是学习Python数据分析最好的参考书。本来想把书名直接译为《Python数据分析》，这样更简短。但是为了尊重第1版的翻译，考虑到继承性，还是用老书名。这样读过第一版的老读者可以方便的用之前的书名检索到第二版。作者在写第二版的时候，有些文字是照搬第一版的。所以第二版的翻译也借鉴copy了第一版翻译：即，如果第二版中有和第一版相同的文字，则copy第一版的中文译本，觉得不妥的地方会稍加修改，剩下的不同的内容就自己翻译。这样做也是为读过第一版的老读者考虑——相同的内容可以直接跳过。）
-
-***
-***
-
-
-<div align=center>
-    <a href="https://item.jd.com/13255935.html">
-        <img src="https://tva1.sinaimg.cn/large/008vxvgGly1h8obmj8oc6j308w08w3z2.jpg" width="200px">
-    </a>
-</div>
-<div align=center>
-    <p>我的微信·WeChat，欢迎沟通 ^_^</p>
-</div>
+[1]: https://amzn.to/3DyLaJc
+[2]: https://github.com/wesm/pydata-book/tree/1st-edition
+[5]: https://github.com/wesm/pydata-book/tree/2nd-edition
+[6]: https://wesmckinney.com/book/
